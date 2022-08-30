@@ -1,10 +1,8 @@
 from django.db import models
 
+
 class Categoria(models.Model):
     descricao = models.CharField(max_length=100)
-
-    def __str__(self):
-        return self.descricao
 
 
 class Editora(models.Model):
@@ -16,14 +14,16 @@ class Editora(models.Model):
 
 
 class Autor(models.Model):
-    nome = models.CharField(max_length=255)
-    email = models.EmailField()
+    nome = models.CharField(max_length=100)
+    email = models.EmailField(max_length=50)
 
     def __str__(self):
         return self.nome
 
-    class Meta:
-        verbose_name_plural = "Autores"
+
+class Meta:
+    verbose_name_plural = "Autores"
+
 
 class Livro(models.Model):
     titulo = models.CharField(max_length=255)
