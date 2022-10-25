@@ -1,0 +1,108 @@
+[
+  {
+    "_id": "bcb5e4a2-bbcb-44a7-b799-bbef337c62a7",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/",
+    "url": "http://127.0.0.1:8000/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-25T19:21:20.702Z",
+    "modified": "2022-10-25T19:24:21.792Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY2NzI2MDg2LCJpYXQiOjE2NjY3MjU3ODYsImp0aSI6IjI1ZTkzMDFjMTkwMTRlNTA5YjVmNGU5ODk5M2Q0YzdjIiwidXNlcl9pZCI6MX0.33eoc5JnLefgEKx08T42TShBVCG4-pUki_KERw-zfi0"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"manuela\",\n    \"password\": \"banana\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "6292950b-ec7e-4329-81ce-52ab766a3eea",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/token/",
+    "url": "http://127.0.0.1:8000/token/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-10-25T19:22:55.813Z",
+    "modified": "2022-10-25T19:23:06.172Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"manuela\",\n    \"password\": \"banana\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a04eed19-0202-4cb1-9a45-18500af054a2",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/",
+    "url": "http://127.0.0.1:8000/",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-10-25T19:24:18.156Z",
+    "modified": "2022-10-25T19:24:18.169Z",
+    "headers": [
+      {
+        "name": "Authorization",
+        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY2NzI2MDg2LCJpYXQiOjE2NjY3MjU3ODYsImp0aSI6IjI1ZTkzMDFjMTkwMTRlNTA5YjVmNGU5ODk5M2Q0YzdjIiwidXNlcl9pZCI6MX0.33eoc5JnLefgEKx08T42TShBVCG4-pUki_KERw-zfi0"
+      },
+      {
+        "name": "Accept",
+        "value": "*/*",
+        "isDisabled": true
+      },
+      {
+        "name": "User-Agent",
+        "value": "Thunder Client (https://www.thunderclient.com)",
+        "isDisabled": true
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"manuela\",\n    \"password\": \"banana\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "b84c5c0d-24d2-48c2-8143-e6f4c4547e2b",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://127.0.0.1:8000/categorias/",
+    "url": "http://127.0.0.1:8000/categorias/",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-10-25T19:24:46.869Z",
+    "modified": "2022-10-25T19:47:21.411Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n    \"username\": \"admin1\",\n    \"password\": \"aluno123\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
