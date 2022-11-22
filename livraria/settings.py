@@ -23,11 +23,8 @@ env = environ.Env()
 environ.Env.read_env((os.path.join(BASE_DIR, '.env')))
 
 SECRET_KEY = env('SECRET_KEY')
-
 DEBUG = env('DEBUG')
-
 ALLOWED_HOSTS = env('ALLOWED_HOSTS').split(',')
-
 DATABASES = {'default': env.db()}
 
 # Application definition
@@ -131,16 +128,16 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 REST_FRAMEWORK = {
-    
+
     "DEFAULT_PERMISSION_CLASSES": [
         "rest_framework.permissions.DjangoModelPermissions",
     ],
-    
+
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
     ),
     "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
-    
+
 }
 
 SPECTACULAR_SETTINGS = {
